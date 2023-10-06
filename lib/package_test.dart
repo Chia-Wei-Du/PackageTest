@@ -7,10 +7,12 @@ class TestReportPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SizedBox(
-      height: double.infinity,
-      child: Center(
-        child: Text("測試畫面 From Git"),
+    return const Scaffold(
+      body: SizedBox(
+        height: double.infinity,
+        child: Center(
+          child: Text("測試畫面 From Git"),
+        ),
       ),
     );
   }
