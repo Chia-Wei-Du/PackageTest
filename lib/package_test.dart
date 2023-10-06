@@ -10,7 +10,7 @@ class TestReportPage extends StatelessWidget {
     return const SizedBox(
       height: double.infinity,
       child: Center(
-        child: Text("測試報表 From Fit"),
+        child: Text("測試畫面 From Git"),
       ),
     );
   }
